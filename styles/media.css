@@ -1,7 +1,65 @@
+@media screen and (max-width: 1460px) {
+    #logotype {
+        height: 60px;
+    }
+
+    .HeaderLine {
+        padding: 10px 15px;
+        font-size: 20px;
+    }
+    
+    .HeaderItem {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+}
+
 @media screen and (max-width: 830px) {
+    #logotype {
+        margin-left: 30px;
+        height: 45px;
+    }
+
     header {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
+    }
+
+    .HeaderLine {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    
+    .HeaderItem {
+        padding: 10px 15px;
+        font-size: 10px;
+    }
+
+    .HeaderButton {
+        margin-left: 15px;
+    }
+
+    .MainInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .MainText {
+        text-indent: 15px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    .HeaderItem {
+        padding: 10px 15px;
+        font-size: 10px;
+    }
+
+    .HeaderButton {
+        margin-left: 0px;
     }
 }

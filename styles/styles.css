@@ -9,6 +9,8 @@ a {
     text-decoration: none;
 }
 
+/* |HEADER| */
+
 header {
     display: flex;
     flex: 1;
@@ -40,23 +42,33 @@ header {
 
 .HeaderButton {
     display: flex;
-    flex-wrap: wrap;
     border: 2px solid rgb(255, 208, 0);
     border-radius: 15px;
     margin-left: 30px;
 }
 
+/* |MAIN| */
+
 main {
     display: flex;
-    justify-content: space-between;
     padding: 10px;
     font-family: 'Segoe UI', Arial, sans-serif;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
 
-.info {
+.MainPhoto {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+.MainInfo {
     display: flex;
+}
+
+.MainText {
+    text-indent: 15px;
+    margin-left: 40px;
 }
 
 @keyframes bounce {
