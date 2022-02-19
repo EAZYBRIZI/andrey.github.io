@@ -27,12 +27,12 @@
     }
 
     .HeaderLine {
-        padding: 10px 15px;
+        padding: 5px;
         font-size: 15px;
     }
     
     .HeaderItem {
-        padding: 10px 15px;
+        padding: 5px 15px;
         font-size: 10px;
     }
 
@@ -47,7 +47,7 @@
     }
 
     .MainText {
-        text-indent: 15px;
+        text-align: center;
         margin-left: 5px;
     }
 }
@@ -60,6 +60,6 @@
     }
 
     .HeaderButton {
-        margin-left: 0px;
+        margin-left: 2px;
     }
 }
