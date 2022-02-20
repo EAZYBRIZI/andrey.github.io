@@ -68,6 +68,16 @@ main {
     color: rgb(0, 0, 0);
     margin-left: 8%;
     margin-right: 8%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.line {
+    position: relative;
+    width: 20%;
+    height: 2px;
+    background-color: black;
+    align-self: center;
 }
 
 .MainPhoto {
@@ -85,13 +95,85 @@ main {
     font-size: 20px;
 }
 
-.line {
+.Examples {
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.Secondline {
     position: relative;
     width: 20%;
     height: 2px;
     background-color: black;
     align-self: center;
 }
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+}
+
+.ExampleText {
+    padding-left: 15px;
+}
+
+.FirstExample {
+    display: flex;
+    flex-direction: row-reverse;
+    border-top: 2px solid black;
+}
+
+#FirstPhoto {
+    height: 250px;
+}
+
+.SecondExample {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    border-top: 2px solid black;
+}
+
+#SecondPhoto {
+    height: 250px;
+}
+
+.ThirdExample {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 25px;
+    border-top: 2px solid black;
+}
+
+#ThirdPhoto {
+    height: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @keyframes bounce {
 	0%, 20%, 60%, 100% {

@@ -56,6 +56,45 @@
         text-align: center;
         margin-left: 5px;
     }
+
+    .FirstExample {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .SecondExample {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ThirdExample {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Examples {
+        padding-bottom: 10px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .Secondline {
+        position: relative;
+        width: 15%;
+        height: 2px;
+        background-color: black;
+        align-self: center;
+    }
 }
 
 @media screen and (max-width: 410px) {
@@ -67,6 +106,58 @@
     .line {
         position: relative;
         width: 15%;
+        height: 2px;
+        background-color: black;
+        align-self: center;
+    }
+
+    .FirstExample {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .SecondExample {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ThirdExample {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #FirstPhoto {
+        height: 200px;
+    }
+
+    #SecondPhoto {
+        height: 200px;
+
+    }
+    
+    #ThirdPhoto {
+        height: 200px;
+    }
+
+    .Examples {
+        padding-bottom: 10px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .Secondline {
+        position: relative;
+        width: 10%;
         height: 2px;
         background-color: black;
         align-self: center;
