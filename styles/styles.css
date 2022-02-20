@@ -159,6 +159,24 @@ main {
     font-size: 30px;
 }
 
+.liner {
+    position: relative;
+    width: 20%;
+    height: 2px;
+    background-color: black;
+    align-self: center;
+}
+
+.SomeExamples {
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .SomePhotos {
     display: flex;
     justify-content: space-around;
