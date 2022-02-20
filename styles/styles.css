@@ -80,11 +80,6 @@ main {
     align-self: center;
 }
 
-.MainPhoto {
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 3px;
-}
-
 .MainInfo {
     display: flex;
 }
@@ -116,6 +111,8 @@ main {
 .portfolio {
     display: flex;
     flex-direction: column;
+    font-size: 20px;
+    
 }
 
 .ExampleText {
@@ -148,12 +145,24 @@ main {
     flex-direction: row-reverse;
     margin-top: 25px;
     border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 #ThirdPhoto {
     height: 250px;
 }
 
+.SomePhotos {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(204, 201, 201);
+}
+
+.Galery {
+    height: 150px;
+}
 
 
 
