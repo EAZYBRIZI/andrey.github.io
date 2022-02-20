@@ -101,6 +101,31 @@
         border: 2px solid rgb(255, 255, 255);
         border-radius: 25px;
     }
+
+    .LineGalery {
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+    }
+
+    .liner {
+        position: relative;
+        width: 10%;
+        height: 2px;
+        background-color: black;
+        align-self: center;
+    }
+    
+    .SomeExamples {
+        padding-bottom: 10px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        margin-left: 3%;
+        margin-right: 3%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-weight: 400;
+    }
 }
 
 @media screen and (max-width: 410px) {
