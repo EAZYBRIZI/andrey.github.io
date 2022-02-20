@@ -95,6 +95,12 @@
         background-color: black;
         align-self: center;
     }
+    
+    .Galery {
+        height: 75px;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 25px;
+    }
 }
 
 @media screen and (max-width: 410px) {
@@ -164,7 +170,7 @@
     }
 
     .Galery {
-        height: 50px;
+        height: 75px;
         border: 2px solid rgb(255, 255, 255);
         border-radius: 25px;
     }
