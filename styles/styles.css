@@ -190,6 +190,15 @@ main {
     border-radius: 25px;
 }
 
+/* |FOOTER| */
+
+footer {
+    padding: 10px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
 .LineContacts {
     display: flex;
     justify-content: center;
