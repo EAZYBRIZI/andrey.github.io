@@ -18,6 +18,15 @@
         padding: 10px 15px;
         font-size: 15px;
     }
+
+    .end {
+        font-size: 20px;
+    }
+
+    .endcontacts {
+        font-size: 20px;
+        padding-right: 15px;
+    }
 }
 
 @media screen and (max-width: 830px) {
@@ -149,6 +158,15 @@
         margin-right: 8%;
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+
+    .end {
+        font-size: 15px;
+    }
+
+    .endcontacts {
+        font-size: 15px;
+        padding-right: 10px;
     }
 }
 
