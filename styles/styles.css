@@ -11,82 +11,6 @@ a {
 
 /* |HEADER| */
 
-.hidden-menu {
-    display: block;
-    position: fixed;
-    list-style:none;
-    padding: 10px;
-    margin: 0;
-    box-sizing: border-box;
-    width: 200px;
-    background-color: rgba(0, 0, 0, 0.8);
-    height: 100%;
-    top: 0;
-    left: -200px;
-    transition: left .2s;
-    z-index: 2;
-    -webkit-transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
-    }
-    .hidden-menu li a {text-decoration: none; color:#cacaca;}
-    .hidden-menu li a:hover {color:rgb(255, 255, 255);}
-    /*скрываем инпут чекбокс*/
-    .hidden-menu-ticker {
-    display: none;
-    }
-    /*общие стили значка-гамбургера, самого лэйбла*/
-    .btn-menu {
-    color: #fff;
-    padding: 2px;
-    position: fixed;
-    top: 5px;
-    left: 5px;
-    cursor: pointer;
-    transition: left .23s;
-    z-index: 3;
-    width: 20px;
-    -webkit-transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
-    }
-    /*общие стили полосок*/
-    .btn-menu span {
-    display: block;
-    height: 2px;
-    background-color: #00ccff;
-    margin: 5px 0 0;
-    transition: all .1s linear .23s;
-    position: relative;
-    }
-    /*прибиваем к верху лэйбла первую полоску*/
-    .btn-menu span.first {
-    margin-top: 0;
-    }
-    /*при нажатии на бургер двигаем его и делаем другой фон бургеру*/
-    .hidden-menu-ticker:checked ~ .btn-menu {
-    left: 160px;
-    }
-    /*и дальше стили меняющие бургер, двигающие менюшку по событию - нажатие на значек бургера*/
-    .hidden-menu-ticker:checked ~ .hidden-menu {
-    left: 0;
-    }
-    .hidden-menu-ticker:checked ~ .btn-menu span.first {
-    -webkit-transform: rotate(45deg);
-    top: 7px;
-    background-color: rgb(255, 0, 0);
-    }
-    .hidden-menu-ticker:checked ~ .btn-menu span.second {
-    opacity: 0;
-    }
-    .hidden-menu-ticker:checked ~ .btn-menu span.third {
-    -webkit-transform: rotate(-45deg);
-    top: -7px;
-    background-color: rgb(255, 0, 0);
-    }
-
-#NavPhoto {
-    width: 180px;
-}
-
 header {
     display: flex;
     flex: 1;
@@ -264,6 +188,16 @@ main {
     height: 150px;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 25px;
+}
+
+.MorePhotos {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#OtherSite {
+    color: black;
+    font-size: 25px;
 }
 
 /* |FOOTER| */
