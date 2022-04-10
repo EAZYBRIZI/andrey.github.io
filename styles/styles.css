@@ -39,7 +39,7 @@ header {
 main {
     padding: 10px;
     font-family: 'Segoe UI', Arial, sans-serif;
-    background-color: rgb(255, 255, 255);
+    background-image: url('https://kartinkin.net/uploads/posts/2021-07/1627424543_29-kartinkin-com-p-mramor-tekstura-besshovnaya-belii-chyornii-29.jpg');
     color: rgb(0, 0, 0);
 }
 
@@ -51,7 +51,7 @@ main {
 
 .about {
     padding-bottom: 10px;
-    background-color: rgb(255, 255, 255);
+
     color: rgb(0, 0, 0);
     margin-left: 8%;
     margin-right: 8%;
@@ -79,7 +79,7 @@ main {
 
 .Examples {
     padding-bottom: 10px;
-    background-color: rgb(255, 255, 255);
+;
     color: rgb(0, 0, 0);
     margin-left: 8%;
     margin-right: 8%;
@@ -147,7 +147,7 @@ main {
 
 .SomeExamples {
     padding-bottom: 10px;
-    background-color: rgb(255, 255, 255);
+
     color: rgb(0, 0, 0);
     margin-left: 8%;
     margin-right: 8%;
@@ -159,7 +159,7 @@ main {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: rgb(255, 255, 255);
+
 }
 
 .Galery {
@@ -184,7 +184,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     font-size: 25px;
+    background-image: url('https://clipart-db.ru/file_content/rastr/granite_014.jpg');
+    color: #fff;
 }
 
 .LineFooter {
@@ -203,7 +206,6 @@ footer {
 
 .EndContacts {
     padding-bottom: 10px;
-    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     margin-left: 8%;
     margin-right: 8%;
