@@ -47,15 +47,14 @@ main {
 /* test */
 #wrapperNum div {
     display: flex;
-    position: fixed; /* Позиция относительно окна браузера */
+    justify-content: space-between;
+    position: absolute; /* Позиция относительно окна браузера */
     left: -240px; /* Позиция на экране */
     transition: 0.3s; /* Добавляем трансформацию при наведении */
     padding-left: 2px; /* Отступы 15px */
     width: 300px; /* Задаем ширину */
-    text-decoration: none; /* Убираем подчеркивание */
     font-size: 20px; /* Размер шрифта */
-    color: white; /* Белый цвет текста */
-    border-radius: 0 5px 5px 0; /* Закругленные углы в верхней и нижней части справа */
+    color: rgb(0, 0, 0); /* Белый цвет текста */
   }
   
 #wrapperNum div:hover {
@@ -65,7 +64,6 @@ main {
 #phone {
     display: flex;
     top: 13%;
-    background-color: rgb(105, 156, 100);
     align-items: center;
 }
 
