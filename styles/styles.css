@@ -48,28 +48,35 @@ main {
 #wrapperNum div {
     display: flex;
     justify-content: space-between;
-    position: absolute; /* Позиция относительно окна браузера */
-    left: -240px; /* Позиция на экране */
-    transition: 0.3s; /* Добавляем трансформацию при наведении */
-    padding-left: 2px; /* Отступы 15px */
-    width: 300px; /* Задаем ширину */
-    font-size: 20px; /* Размер шрифта */
-    color: rgb(0, 0, 0); /* Белый цвет текста */
+    position: absolute;
+    left: -245px;
+    transition: 0.3s; /*трансформацию при наведении*/
+    padding: 2px;
+    width: 305px;
+    color: rgb(0, 0, 0);
+    z-index: 1;
   }
   
 #wrapperNum div:hover {
-    left: 0; /* При наведении курсора элементы выезжают на всю ширину */
+    left: 0; /*элементы выезжают на всю ширину*/
 }
 
 #phone {
     display: flex;
     top: 13%;
     align-items: center;
+    border-radius: 0 7px 7px 0;
+    z-index: 2;
+}
+
+#contacts {
+    font-size: 20px;
+    background-color: rgba(136, 133, 133, 0.781);
 }
 
 #test {
-    margin-left: 5px;
     height: 50px;
+    padding-left: 5px;
 }
 
 /* test */
@@ -82,7 +89,6 @@ main {
 
 .about {
     padding-bottom: 10px;
-
     color: rgb(0, 0, 0);
     margin-left: 8%;
     margin-right: 8%;
@@ -110,7 +116,6 @@ main {
 
 .Examples {
     padding-bottom: 10px;
-;
     color: rgb(0, 0, 0);
     margin-left: 8%;
     margin-right: 8%;
@@ -130,7 +135,6 @@ main {
     display: flex;
     flex-direction: column;
     font-size: 20px;
-    
 }
 
 .ExampleText {
