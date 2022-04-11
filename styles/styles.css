@@ -51,7 +51,7 @@ main {
     left: -240px; /* Позиция на экране */
     transition: 0.3s; /* Добавляем трансформацию при наведении */
     padding: 1px; /* Отступы 15px */
-    width: 300px; /* Задаем ширину */
+    width: 290px; /* Задаем ширину */
     text-decoration: none; /* Убираем подчеркивание */
     font-size: 20px; /* Размер шрифта */
     color: white; /* Белый цвет текста */
@@ -65,12 +65,11 @@ main {
 #phone {
     display: flex;
     top: 13%;
-    background-color: rgb(56, 53, 53);
+    background-color: rgb(105, 156, 100);
     align-items: center;
   }
 
   #test {
-    background-color: rgb(56, 53, 53);
     height: 50px;
 }
 
