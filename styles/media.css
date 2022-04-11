@@ -24,7 +24,7 @@
 
     header {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         flex-wrap: wrap;
     }
 
@@ -32,14 +32,9 @@
         padding: 5px;
         font-size: 15px;
     }
-    
-    .HeaderItem {
-        padding: 5px 10px;
-        font-size: 10px;
-    }
 
-    .HeaderButton {
-        margin-left: 15px;
+    .contacts {
+        font-size: 17px;
     }
 
     .MainInfo {
@@ -119,14 +114,7 @@
         padding-top: 30px;
         padding-bottom: 30px;
         font-weight: 400;
-    }
-
-    .LineFooter {
-        display: flex;
-        justify-content: center;
-        font-size: 28px;
-    }
-    
+    }  
 }
 
 @media screen and (max-width: 410px) {
@@ -222,27 +210,5 @@
         padding-top: 30px;
         padding-bottom: 30px;
         font-weight: 400;
-    }
-    .LineFooter {
-        display: flex;
-        justify-content: center;
-        font-size: 25px;
-    }
-    
-    .lineF {
-        position: relative;
-        width: 20%;
-        height: 2px;
-        background-color: black;
-        align-self: center;
-    }
-    
-    .EndContacts {
-        padding-bottom: 10px;
-        color: rgb(0, 0, 0);
-        margin-left: 4%;
-        margin-right: 4%;
-        padding-top: 30px;
-        padding-bottom: 30px;
     }
 }

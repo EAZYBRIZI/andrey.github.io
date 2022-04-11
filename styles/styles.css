@@ -13,7 +13,7 @@ a {
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 10px;
     font-family: 'Segoe UI', Arial, sans-serif;
     background-image: url('https://kartinkin.net/uploads/posts/2021-07/1626258544_2-kartinkin-com-p-chernii-granit-tekstura-besshovnaya-krasiv-4.jpg');
@@ -34,12 +34,17 @@ header {
     font-size: 25px;
 }
 
+.contacts {
+    font-size: 25px;
+}
+
 /* |MAIN| */
 
 main {
     padding: 10px;
     font-family: 'Segoe UI', Arial, sans-serif;
     background-image: url('https://kartinkin.net/uploads/posts/2021-07/1627424543_29-kartinkin-com-p-mramor-tekstura-besshovnaya-belii-chyornii-29.jpg');
+    background-attachment: fixed;
     color: rgb(0, 0, 0);
 }
 
@@ -110,12 +115,16 @@ main {
     display: flex;
     flex-direction: row-reverse;
     border-top: 2px solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .SecondExample {
     display: flex;
     flex-direction: row;
     border-top: 2px solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .ThirdExample {
@@ -123,6 +132,8 @@ main {
     flex-direction: row-reverse;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 #ThirdPhoto {
@@ -176,39 +187,4 @@ main {
 #OtherSite {
     color: rgb(87, 31, 31);
     font-size: 25px;
-}
-
-/* |FOOTER| */
-
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 25px;
-    background-image: url('https://clipart-db.ru/file_content/rastr/granite_014.jpg');
-    color: #fff;
-}
-
-.LineFooter {
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-}
-
-.lineF {
-    position: relative;
-    width: 20%;
-    height: 2px;
-    background-color: black;
-    align-self: center;
-}
-
-.EndContacts {
-    padding-bottom: 10px;
-    color: rgb(0, 0, 0);
-    margin-left: 8%;
-    margin-right: 8%;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
