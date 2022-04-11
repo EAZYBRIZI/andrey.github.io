@@ -13,7 +13,7 @@ a {
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 10px;
     font-family: 'Segoe UI', Arial, sans-serif;
     background-image: url('https://kartinkin.net/uploads/posts/2021-07/1626258544_2-kartinkin-com-p-chernii-granit-tekstura-besshovnaya-krasiv-4.jpg');
@@ -34,10 +34,6 @@ header {
     font-size: 25px;
 }
 
-.contacts {
-    font-size: 25px;
-}
-
 /* |MAIN| */
 
 main {
@@ -47,6 +43,30 @@ main {
     background-attachment: fixed;
     color: rgb(0, 0, 0);
 }
+
+/* test */
+#mySidenav a {
+    position: absolute; /* Позиция относительно окна браузера */
+    left: -100px; /* Позиция на экране */
+    transition: 0.3s; /* Добавляем трансформацию при наведении */
+    padding: 15px; /* Отступы 15px */
+    width: 120px; /* Задаем ширину */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-size: 20px; /* Размер шрифта */
+    color: white; /* Белый цвет текста */
+    border-radius: 0 5px 5px 0; /* Закругленные углы в верхней и нижней части справа */
+  }
+  
+  #mySidenav a:hover {
+    left: 0; /* При наведении курсора элементы выезжают на всю ширину */
+  }
+  
+  /* Ссылка "О нас": 20px от верха, зеленый фон */
+  #about {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+/* test */
 
 .aboutText {
     display: flex;
